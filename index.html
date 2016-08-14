@@ -1,35 +1,106 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Hyang Cho</title>
+    <title>hyang cho</title>
 	<meta charset="utf-8" />
     <link href="Lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Styles/site.css" rel="stylesheet" />
 </head>
 <body>
     <div id="page">
         <header class="container">
-            <nav id="menu" class="navbar navbar-default">
-                <div id="logo">
-                    <a href='#'>hyang Cho</a>
+            <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div id="logo" class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" 
+                                data-toggle="collapse" data-target="#navbar-collapse-menu" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href='index.html'>hyang cho</a>
+                    </div>
+                    <div id="navbar-collapse-menu" class="collapse navbar-collapse pull-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Works</a></li>
+                            <li><a href="#">CV</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <ul>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">CV</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
             </nav>
         </header>
-        <section id="body" class="container">
+        <section id="body" class="container main-image-list">
             <div class="row">
-                <img src="Images/blankbook.jpg" class="col-sm-3 img-thumbnail" />
-                <img src="Images/allthenames.jpg" class="col-sm-3 img-thumbnail" />
-                <img src="Images/buttons.jpg" class="col-sm-3 img-thumbnail" />
-                <img src="Images/ball.jpg" class="col-sm-3 img-thumbnail" />
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/blankbook.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/allthenames.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/buttons.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/ball.jpg" class="img-thumbnail" /></a>
+                </div>
             </div>
             <div class="row">
-                <img src="Images/allihaveistime.jpg" class="col-sm-3 img-thumbnail" />
-                <img src="Images/spin.jpg" class="col-sm-3 img-thumbnail" />
-                <img src="Images/jars.jpg"  class="col-sm-3 img-thumbnail" />
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/allihaveistime.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/spin.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/jars.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/clavier.jpg" class="img-thumbnail" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/its.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/trial3.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/trial2.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/trial1.jpg" class="img-thumbnail" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/mynameisnothyangcho.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/restissilence.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/residueethics.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/andsooninfinity.jpg" class="img-thumbnail" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/linebyline2.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/linebyline1.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/books.jpg" class="img-thumbnail" /></a>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img src="Images/main/frankenstein.jpg" class="img-thumbnail" /></a>
+                </div>
             </div>
         </section>        
         <footer class="container">
@@ -38,6 +109,7 @@
     </div>
 
     <script src="Lib/jQuery/jquery.min.js"></script>
+    <script src="Lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="Scripts/site.js"></script>
 </body>
 </html>
