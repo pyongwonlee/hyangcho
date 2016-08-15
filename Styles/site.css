@@ -8,5 +8,11 @@ footer {
 }
 
 section.main-image-list > div.row > div {
-    padding: 5px;
+    padding: 10px 3px;
+}
+
+
+/* override bootstrap */
+img.img-thumbnail {
+    border: 0;
 }
