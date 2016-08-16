@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 70px;
     margin-bottom: 15px;
+    font-family: Helvetica, Arial, Verdana, Sans-Serif; 
 }
 
 footer {
@@ -11,6 +12,10 @@ section.main-image-list > div.row > div {
     padding: 10px 3px;
 }
 
+/* menu */
+nav#menu {
+    font-weight: bold;
+}
 
 /* override bootstrap */
 img.img-thumbnail {
