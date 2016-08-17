@@ -18,6 +18,6 @@ nav#menu {
 }
 
 /* override bootstrap */
-img.img-thumbnail {
+section.main-image-list img.img-thumbnail {
     border: 0;
 }
