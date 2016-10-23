@@ -46,12 +46,30 @@ section.main-image-list div.thumbnail {
     border: 0;
 }
 
+
 /* Works */
 div.work-menu {
     margin-top: 10px;
 }
 div.work-arrows {
-    font-size: 16px; text-align:right; margin-bottom: 10px;
+    text-align:right; margin-bottom: 10px;
+}
+
+div.work-arrows a {
+    padding-left:3px;
+    padding-right:0px;
+    font-size:16px;
+}
+
+div.work-arrows a.disabled {
+    color:gray;
+}
+a.btn-link, a.btn-link:focus {
+    color: black;
+} 
+
+a.btn-link:hover {
+    color: rgb(51,122,183);
 }
 
 div.work-image {
