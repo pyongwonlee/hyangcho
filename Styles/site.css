@@ -1,6 +1,8 @@
 ﻿body {
-    padding-top: 70px;
+    padding-top: 20px;
     margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: Helvetica, Arial, Verdana, Sans-Serif; 
 }
 
@@ -9,7 +11,11 @@ footer {
 }
 
 section.main-image-list > div.row > div {
-    padding: 10px 3px;
+    padding: 0px 3px 0px 3px;
+}
+
+section.main-image-list > div.row > div > .thumbnail {
+    padding: 0px 6px 0px 6px;
 }
 
 /* menu */
@@ -17,7 +23,18 @@ nav#menu {
     font-weight: bold;
 }
 
+.navbar-default {
+    background-color: white;
+    border: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: white;
+}
+
 /* override bootstrap */
-section.main-image-list img.img-thumbnail {
+section.main-image-list div.thumbnail {
     border: 0;
 }
