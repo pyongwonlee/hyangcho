@@ -7,7 +7,9 @@
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: right;
 }
 
 section.main-image-list > div.row > div {
@@ -34,7 +36,37 @@ nav#menu {
   background-color: white;
 }
 
+a.navbar-brand {
+    padding-left: 0px;
+    font-size: 20px;
+}
+
 /* override bootstrap */
 section.main-image-list div.thumbnail {
     border: 0;
+}
+
+/* Works */
+div.work-menu {
+    margin-top: 10px;
+}
+div.work-arrows {
+    font-size: 16px; text-align:right; margin-bottom: 10px;
+}
+
+div.work-image {
+    margin-bottom:10px; 
+}
+
+div.work-image img.img-thumbnail {
+    border: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.work-header, div.work-summary, div.work-description, div.work-video {
+    margin-bottom: 20px;
+}
+
+div.work-video {
 }
