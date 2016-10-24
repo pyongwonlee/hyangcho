@@ -64,11 +64,11 @@ div.work-arrows a {
 div.work-arrows a.disabled {
     color:gray;
 }
-a.btn-link, a.btn-link:focus {
+a.btn-link {
     color: black;
 } 
 
-a.btn-link:hover {
+a.btn-link:focus, a.btn-link:hover {
     color: rgb(51,122,183);
 }
 
