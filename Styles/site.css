@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: Helvetica, Arial, Verdana, Sans-Serif; 
@@ -95,4 +95,13 @@ div.work-video {
 
 p.photo-copyright {
     font-size: 12px;
+}
+
+div.cv-section-title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+div.art-acknowledge {
+    margin-top: 100px;
 }
