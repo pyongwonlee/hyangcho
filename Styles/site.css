@@ -105,3 +105,12 @@ div.cv-section-title {
 div.art-acknowledge {
     margin-top: 100px;
 }
+
+div.contact-area {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p.contact-name {
+    margin-left: 15px;
+}
