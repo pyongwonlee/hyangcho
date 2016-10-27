@@ -1,116 +1,40 @@
 ﻿body {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: Helvetica, Arial, Verdana, Sans-Serif; 
+    font-family: Helvetica,Arial,Verdana,Sans-Serif;
+    margin: 20px auto 2px auto ;
+    width: 1024px;
 }
 
-footer {
-    margin-top: 25px;
-    font-size: 12px;
-    text-align: right;
+body > div#page {    
+    text-align: center;
 }
 
-section.main-image-list > div.row > div {
-    padding: 0px 3px 0px 3px;
+/* links */
+a:active, a:focus {
+    outline: 0
 }
-
-section.main-image-list > div.row > div > .thumbnail {
-    padding: 0px 6px 0px 6px;
+a:link, a:visited {
+    color:#777;
+    text-decoration:none;
+}
+a:hover, a:focus {
+    color: rgb(51,122,183);
+    text-decoration: none;
 }
 
 /* menu */
-nav#menu {
+div.title {
+    float: left;
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.titlemenu {
+    float: right;
+    text-align:right;
+    font-size: 14px;
     font-weight: bold;
 }
 
-.navbar-default {
-    background-color: white;
-    border: 0;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  background-color: white;
-}
-
-a.navbar-brand {
-    padding-left: 0px;
-    font-size: 20px;
-}
-
-/* override bootstrap */
-section.main-image-list div.thumbnail {
-    border: 0;
-}
-
-
-/* Works */
-div.work-menu {
-    margin-top: 10px;
-}
-div.work-arrows {
-    text-align:right; margin-bottom: 10px;
-}
-
-div.work-arrows a {
-    padding-left:5px;
-    padding-right:0px;
-    font-size:16px;
-}
-
-div.work-arrows a.disabled {
-    color:gray;
-}
-a.btn-link {
-    color: black;
-} 
-
-a.btn-link:focus, a.btn-link:hover {
-    color: rgb(51,122,183);
-}
-
-div.work-image {
-    margin-bottom:10px; 
-}
-
-div.work-image img.img-thumbnail {
-    border: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-div.work-header, div.work-description, div.work-video {
-    margin-bottom: 20px;
-}
-
-div.work-summary {
-    margin-bottom: 30px;
-}
-
-div.work-video {
-}
-
-p.photo-copyright {
-    font-size: 12px;
-}
-
-div.cv-section-title {
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-div.art-acknowledge {
-    margin-top: 100px;
-}
-
-div.contact-area {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-p.contact-name {
-    margin-left: 15px;
+div.titlemenu > a {
+    padding-left: 20px;
 }
