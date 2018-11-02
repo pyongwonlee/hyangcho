@@ -102,6 +102,9 @@ div.work-video {
 p.photo-copyright {
     font-size: 12px;
 }
+p.photo-copyright-small {
+    font-size: 10px;
+}
 
 div.cv-section-title {
     margin-bottom: 10px;
